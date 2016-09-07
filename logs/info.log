@@ -1,0 +1,14 @@
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"validate token fixedtokan","time":"2016-09-07T09:36:21.628Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":50,"msg":"Authentication failure socket 8hyLwylVNeJAHb5pAAAB  haizi010@163.com","time":"2016-09-07T09:36:21.629Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"validate token fixedtoken","time":"2016-09-07T09:36:29.363Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"Authenticated socket 8hyLwylVNeJAHb5pAAAB  haizi010@163.com ","time":"2016-09-07T09:36:29.363Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"receive message from haizi010@163.com to huhenry.bj@hotmail.com with message : test offline message","time":"2016-09-07T09:36:56.789Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"store offline message haizi010@163.com huhenry.bj@hotmail.com test offline message ","time":"2016-09-07T09:36:56.789Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"receive message from haizi010@163.com to huhenry.bj@hotmail.com with message : test offline message  2","time":"2016-09-07T09:37:04.863Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"store offline message haizi010@163.com huhenry.bj@hotmail.com test offline message  2 ","time":"2016-09-07T09:37:04.863Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"receive message from haizi010@163.com to huhenry.bj@hotmail.com with message : test offline message  3","time":"2016-09-07T09:37:08.150Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"store offline message haizi010@163.com huhenry.bj@hotmail.com test offline message  3 ","time":"2016-09-07T09:37:08.150Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"receive message from haizi010@163.com to huhenry.bj@hotmail.com with message : test offline message  4","time":"2016-09-07T09:37:11.855Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"store offline message haizi010@163.com huhenry.bj@hotmail.com test offline message  4 ","time":"2016-09-07T09:37:11.856Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"validate token fixedtoken","time":"2016-09-07T09:37:59.676Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":11664,"level":30,"msg":"Authenticated socket dsNqtD-oBDehePcYAAAC  huhenry.bj@hotmail.com ","time":"2016-09-07T09:37:59.677Z","v":0}
