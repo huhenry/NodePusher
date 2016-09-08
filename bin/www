@@ -16,6 +16,13 @@ var io = require('socket.io')(server);
 var message = require("../lib/message.js").Message;
 
 /**
+ *
+ * connectedUsernumbers
+ */
+var usersConnected = 0;
+
+
+/**
  * Create Log
  */
 var log = bunyan.createLogger({
@@ -120,6 +127,9 @@ function onListening() {
 io.on('connection', function (socket) {
     socket.auth = false;
     console.log("new client joined! %s", socket.id);
+    usersConnected++;
+
+    console.log("There are %s users online!", usersConnected.toString());
     socket.setMaxListeners(0);
     socket.on('authenticate', function (data) {
         console.log('socket client ask for auth %s : %s : %s', data.token, data.email, socket.id);
@@ -183,12 +193,13 @@ io.on('connection', function (socket) {
 
 
     socket.on('disconnect', function (clientInfo) {
-
+        usersConnected--
         // remove online connectios when client socket disconnect
         if (connections[socket.email]) {
             connections[socket.email] = null;
         }
-
+        console.log("user %s is offline!",socket.id);
+        console.log("There are %s users online!", usersConnected.toString());
     });
 
 

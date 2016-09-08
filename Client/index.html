@@ -59,6 +59,7 @@
         socket.on('authenticated', function () {
             $("#commentBox").show();
             $("#loginBox").hide();
+            $("#status").text("");
         });
 
         socket.on('unauthorized', function () {
