@@ -89,7 +89,7 @@
         });
 
         socket.on('receiveMessage', function (msg) {
-            alert("get message from!");
+            //alert("get message from!");
             if (Object.prototype.toString.call(msg) === '[object Array]') {
                 //notifyMe(msg.user,msg.comment);
                 for (var i = 0; i < msg.length; i++) {

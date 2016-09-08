@@ -29,3 +29,4 @@
 {"name":"bunyanLog","hostname":"Henry-PC","pid":9884,"level":30,"msg":"store offline message huhenry.bj@hotmail.com haizi010@163.com offlice message 4 ","time":"2016-09-08T01:14:00.497Z","v":0}
 {"name":"bunyanLog","hostname":"Henry-PC","pid":9884,"level":30,"msg":"validate token fixedtoken","time":"2016-09-08T01:14:09.902Z","v":0}
 {"name":"bunyanLog","hostname":"Henry-PC","pid":9884,"level":30,"msg":"Authenticated socket wnbZme8D_Zy5iH5_AAAB  haizi010@163.com ","time":"2016-09-08T01:14:09.902Z","v":0}
+{"name":"bunyanLog","hostname":"Henry-PC","pid":9884,"level":30,"msg":"clear unauthorized client socket _eydUPkNX3KkwWJlAAAA","time":"2016-09-08T01:22:58.842Z","v":0}
