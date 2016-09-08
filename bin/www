@@ -146,10 +146,10 @@ io.on('connection', function (socket) {
                     if (messages.length > 0) {
                         socket.emit("receiveMessage", messages);
                     }
-                    for (var i = 0; i < message.length; i++) {
+                    for (var i = 0; i < messages.length; i++) {
 
                         var now = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '');
-                        message.ReceiveMessage(message[i].messageId, now, function (err, data) {
+                        message.ReceiveMessage(messages[i].messageId, now, function (err, data) {
                         });
                     }
                 });
